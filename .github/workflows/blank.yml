@@ -38,4 +38,4 @@ jobs:
 
   # Runs a single command using the runners shell
       - name: Copy to S3
-        run: aws s3 cp * s3://destinationbucketai/
+        run: aws s3 cp /* s3://destinationbucketai/
