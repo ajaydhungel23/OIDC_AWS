@@ -35,7 +35,7 @@ jobs:
         uses: trstringer/manual-approval@v1
         with:
           secret: ${{ steps.generate_token.outputs.token }}
-          approvers: myteam
+          approvers: review
           minimum-approvals: 1
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
